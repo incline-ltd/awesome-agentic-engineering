@@ -126,6 +126,7 @@ collection of links.
 
 ## Testing And Verification
 
+- [Agent QA](https://github.com/vostride/agent-qa) - Runs natural-language web and mobile regression tests with persistent memory through CLI and MCP interfaces.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Analyzes local AI coding agent sessions for estimated cost, token use, elapsed time, and slow run details. Maintained by [@luoyuctl](https://github.com/luoyuctl).
 - [Jest](https://jestjs.io/) - Runs JavaScript tests with snapshots, mocks, and watch mode.
 - [OpenAI Evals](https://github.com/openai/evals) - Provides a framework for measuring model behavior and task performance.
