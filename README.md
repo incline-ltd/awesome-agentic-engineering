@@ -132,6 +132,7 @@ collection of links.
 - [Jest](https://jestjs.io/) - Runs JavaScript tests with snapshots, mocks, and watch mode.
 - [Mneme](https://github.com/MnemeHQ/mneme) - Checks proposed code changes against declared architectural rules through agent integrations and CI. Maintained by [@TheoV823](https://github.com/TheoV823).
 - [OpenAI Evals](https://github.com/openai/evals) - Provides a framework for measuring model behavior and task performance.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding agent run beneath the harness and replays it offline from the recorded bytes, or re-runs it from a chosen step on a different model.
 - [Playwright](https://playwright.dev/) - Automates browser testing across Chromium, Firefox, and WebKit.
 - [pytest](https://docs.pytest.org/en/stable/) - Runs Python tests with fixtures, parametrization, and plugin support.
 - [SWE-bench](https://www.swebench.com/) - Benchmarks coding agents on real-world software engineering tasks.
