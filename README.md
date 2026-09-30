@@ -107,6 +107,7 @@ collection of links.
 - [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) - Lists reference and community MCP server implementations.
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Implements the protocol for TypeScript MCP servers and clients.
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Defines the open protocol for connecting agents to tools and context.
+- [Rune](https://github.com/thecolourfoundation/rune) - Builds a queryable codebase graph with file-and-line evidence for coding agents through MCP.
 
 ## Skills And Plugins
 
