@@ -66,6 +66,7 @@ collection of links.
 - [Continue](https://www.continue.dev/) - Adds open-source AI coding assistance and custom workflows to IDEs.
 - [GitHub Copilot Coding Agent](https://docs.github.com/en/copilot/concepts/coding-agent/coding-agent) - Creates pull requests from GitHub issues using Copilot's asynchronous coding agent.
 - [OpenCode](https://opencode.ai/) - Offers a terminal coding agent with pluggable model providers and project-aware workflows.
+- [SCODE](https://github.com/sidra-ai-development/scode) - Provides an open-source terminal coding runtime with persistent sessions, file and shell tools, MCP support, and cloud or local models.
 
 ## Agent Rules And Memories
 
