@@ -66,6 +66,7 @@ collection of links.
 - [Continue](https://www.continue.dev/) - Adds open-source AI coding assistance and custom workflows to IDEs.
 - [GitHub Copilot Coding Agent](https://docs.github.com/en/copilot/concepts/coding-agent/coding-agent) - Creates pull requests from GitHub issues using Copilot's asynchronous coding agent.
 - [OpenCode](https://opencode.ai/) - Offers a terminal coding agent with pluggable model providers and project-aware workflows.
+- [Orbi](https://github.com/orbi-build/orbi) - Turns labelled GitHub issues into pull requests, reviews them in a separate session against the acceptance criteria, then merges and tags a release.
 
 ## Agent Rules And Memories
 
