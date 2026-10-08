@@ -4,8 +4,8 @@ An opinionated, reviewed guide to building reliable AI coding agents. It
 focuses on repository rules, coding workflows, tool connections, verification,
 and safe execution instead of trying to list every AI agent resource.
 
-**Last reviewed:** October 8, 2026. The list is reviewed at least quarterly and
-when a linked project changes in a way that affects its recommendation.
+**Last reviewed:** October 8, 2026. Reviews are manual; each review checks the
+links and descriptions against their current sources.
 
 ## Contents
 
@@ -63,7 +63,6 @@ collection of links.
 - [Claude Code](https://code.claude.com/docs/en/overview) - Runs agentic coding workflows from a terminal with project context and tool use.
 - [Cline](https://github.com/cline/cline) - Provides an open-source coding agent that can edit files, run commands, and use browser automation.
 - [Codex](https://github.com/openai/codex) - Provides an open-source coding agent that runs locally in the terminal.
-- [Continue](https://github.com/continuedev/continue) - Provides an open-source coding agent whose code stays available after its team joined Cursor.
 - [GitHub Copilot Cloud Agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent) - Runs research, planning, and coding tasks autonomously inside GitHub workflows.
 - [OpenCode](https://opencode.ai/) - Offers a terminal coding agent with pluggable model providers and project-aware workflows.
 - [Orbi](https://github.com/orbi-build/orbi) - Turns labelled GitHub issues into pull requests, reviews them in a separate session against the acceptance criteria, then merges and tags a release.
@@ -75,7 +74,7 @@ collection of links.
 - [Claude Code Memory](https://code.claude.com/docs/en/memory) - Shows how Claude Code loads project, user, and local memory files.
 - [Coding Agent Guidelines](https://github.com/incline-ltd/coding-agent-guidelines) - Packages portable behavioral rules for Claude Code, Cursor, and AGENTS.md consumers.
 - [Cursor Rules](https://cursor.com/docs/rules) - Describes project, user, and team rules and AGENTS.md support in Cursor.
-- [Evaluating AGENTS.md](https://arxiv.org/abs/2602.11988) - Measures repository context files across coding agents and finds they raise inference cost without generally improving task success.
+- [Evaluating AGENTS.md](https://arxiv.org/abs/2602.11988) - Benchmarks how generated and developer-written repository instructions affect coding-agent task success and inference cost.
 
 ## Claude Code
 
@@ -88,11 +87,11 @@ collection of links.
 ## Codex
 
 - [Codex AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md) - Shows how repository instructions are discovered and merged.
+- [Codex Approvals And Security](https://learn.chatgpt.com/docs/agent-approvals-security) - Explains Codex approval policies, sandboxing, and network controls.
 - [Codex Configuration](https://learn.chatgpt.com/docs/config-file/config-basic) - Documents provider, sandboxing, MCP, and runtime configuration.
 - [Codex MCP](https://learn.chatgpt.com/docs/extend/mcp) - Connects Codex to external tools and data through Model Context Protocol.
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Provides a community tool for named CODEX_HOME folders and separate local ChatGPT app data on macOS without copying tokens.
 - [Codex Sandbox](https://learn.chatgpt.com/docs/sandboxing) - Explains local sandboxing, approvals, and command execution controls.
-- [Codex Security](https://learn.chatgpt.com/docs/security) - Describes security controls and threat-model guidance for Codex.
 - [Codex Skills](https://learn.chatgpt.com/docs/build-skills) - Shows where Codex discovers skills and how explicit and description-based invocation works.
 
 ## Cursor
@@ -117,7 +116,7 @@ collection of links.
 - [Agent Skills](https://agentskills.io/) - Defines the open SKILL.md format that many coding agents load on demand.
 - [Claude Code Skills](https://code.claude.com/docs/en/skills) - Bundles task-specific instructions, scripts, and resources for Claude Code.
 - [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) - Provides Python primitives for agents, handoffs, tools, guardrails, and tracing.
-- [OpenAI Plugins](https://developers.openai.com/plugins) - Packages skills, MCP servers, and optional UI into plugins for ChatGPT.
+- [OpenAI Plugins](https://developers.openai.com/plugins) - Packages skills, MCP servers, and optional UI into plugins for ChatGPT and Codex.
 - [Smithery](https://smithery.ai/) - Indexes MCP servers for discovery, installation, and evaluation.
 
 ## Code Review Workflows
@@ -126,7 +125,7 @@ collection of links.
 - [Danger JS](https://danger.systems/js/) - Automates pull-request checks and review comments from JavaScript or TypeScript.
 - [GitHub Pull Request Reviews](https://docs.github.com/en/pull-requests/how-tos/review-pull-requests) - Documents review states, comments, and requested changes on GitHub.
 - [Reviewdog](https://github.com/reviewdog/reviewdog) - Reports linter and analyzer findings directly on pull requests.
-- [Sourcegraph Cody](https://sourcegraph.com/docs/cody) - Helps developers understand, edit, and review code with Sourcegraph code-search context.
+- [Sourcegraph Cody](https://sourcegraph.com/docs/cody) - Helps Sourcegraph Enterprise users understand, edit, and review code with code-search context.
 
 ## Testing And Verification
 
@@ -175,7 +174,7 @@ collection of links.
 ## Related Public Projects
 
 - [Agent Cost Guard](https://github.com/incline-ltd/agent-cost-guard) - Local hook that stops supported cloud-cost commands proposed by coding agents until a person approves.
-- [Agent Policy Map](https://github.com/incline-ltd/agent-policy-map) - Comparison of which instruction files Codex CLI, Claude Code, Cursor, and GitHub Copilot CLI load for the same file.
+- [Agent Policy Map](https://github.com/incline-ltd/agent-policy-map) - Models documented instruction discovery for the same file across Codex CLI, Claude Code, Cursor IDE, and GitHub Copilot CLI.
 - [Awesome Agent Instructions](https://github.com/incline-ltd/awesome-agent-instructions) - Patterns and a skill for reviewing and simplifying coding-agent instructions while preserving project constraints.
 - [Coding Agent Guidelines](https://github.com/incline-ltd/coding-agent-guidelines#readme) - Reusable rules for coding agents working in real repositories.
 - [Production Launch Prompts](https://github.com/incline-ltd/production-launch-prompts) - Review prompts and scorecards for checking software before launch.
