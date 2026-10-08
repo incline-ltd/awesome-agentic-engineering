@@ -174,6 +174,7 @@ collection of links.
 
 ## Related Public Projects
 
+- [Awesome Agent Instructions](https://github.com/incline-ltd/awesome-agent-instructions) - Patterns and a skill for reviewing and simplifying coding-agent instructions while preserving project constraints.
 - [Coding Agent Guidelines](https://github.com/incline-ltd/coding-agent-guidelines#readme) - Reusable rules for coding agents working in real repositories.
 - [Production Launch Prompts](https://github.com/incline-ltd/production-launch-prompts) - Review prompts and scorecards for checking software before launch.
 
