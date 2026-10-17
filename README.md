@@ -67,6 +67,7 @@ collection of links.
 - [OpenCode](https://opencode.ai/) - Offers a terminal coding agent with pluggable model providers and project-aware workflows.
 - [Orbi](https://github.com/orbi-build/orbi) - Turns labelled GitHub issues into pull requests, reviews them in a separate session against the acceptance criteria, then merges and tags a release.
 - [SCODE](https://github.com/sidra-ai-development/scode) - Provides an open-source terminal coding runtime with persistent sessions, file and shell tools, MCP support, and cloud or local models.
+- [yylo](https://github.com/yylo-dev/yylo) - Provides an open-source command-line orchestrator that drives coding agents through typed task, validation, merge, and release-readiness workflows.
 
 ## Agent Rules And Memories
 
