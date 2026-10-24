@@ -105,6 +105,7 @@ collection of links.
 ## MCP Servers
 
 - [CurlShot MCP](https://curlshot.com/docs/guides/ai-agents) - Lets coding agents screenshot a deployed or preview URL in a real browser to check UI changes over remote MCP.
+- [deed.page MCP](https://deed.page/docs) - Lets coding agents publish generated HTML or a static build to a live `<slug>.deed.page` URL over remote MCP or one HTTP PUT.
 - [FastMCP](https://github.com/PrefectHQ/fastmcp) - Provides a Python framework for building MCP servers and clients.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Debugs MCP servers through an interactive developer tool.
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Implements the protocol for Python MCP servers and clients.
